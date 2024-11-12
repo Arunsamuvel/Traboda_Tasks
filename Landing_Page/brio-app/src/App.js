@@ -3,9 +3,9 @@ import './App.css';
 
 function App() {
   console.log("connected");
-  return <h1>
-    Hello World!
-  </h1>
+  return <h1 class="text-3xl font-bold underline">
+  Hello world!
+</h1>
   
   
 }
