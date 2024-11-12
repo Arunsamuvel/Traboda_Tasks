@@ -1,13 +1,13 @@
-
-import './App.css';
+import "./App.css";
+import Hero from "./component/Hero";
 
 function App() {
   console.log("connected");
-  return <h1 class="text-3xl font-bold underline">
-  Hello world!
-</h1>
-  
-  
+  return (
+    <>
+      <Hero />;   {/* logo section */}
+    </>
+  );
 }
 
 export default App;
