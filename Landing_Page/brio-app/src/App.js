@@ -1,14 +1,18 @@
 import React from "react";
-import Navbar from "./component/navbar/Navbar";
-
-import About from "./component/navbar/About";
+import Navbar from "./component/Navbar";
+import Hero from "./component/Hero";
+import About from "./component/About";
+import Register from "./component/Register";
+import Contact from "./component/Contact";
 
 const App = () => {
   return (
     <div className="font-[poppins] bg-gradient-to-t from-[#fecaca] to-[#fef2f2] h-screen ">
       <Navbar />
-
+      <Hero />
       <About />
+      <Register />
+      <Contact />
     </div>
   );
 };

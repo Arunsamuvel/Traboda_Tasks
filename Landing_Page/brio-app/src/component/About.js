@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Hero = () => {
+const About = () => {
   return (
     <div>
-      
+      conneted
     </div>
   )
 }
 
-export default Hero
+export default About
