@@ -7,7 +7,7 @@ import Contact from "./component/Contact";
 
 const App = () => {
   return (
-    <div className="font-[poppins] bg-gradient-to-t from-[#fecaca] to-[#fef2f2] h-screen ">
+    <div className="font-[poppins] bg-gradient-to-t from-[#fecaca] to-[#fef2f2] h-100%  w-screen">
       <Navbar />
       <Hero />
       <About />
