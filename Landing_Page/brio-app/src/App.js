@@ -12,6 +12,7 @@ const App = () => {
       <Hero />
       <About />
       <Register />
+      <hr className="h-px bg-red-950 border-0 dark:bg-gray-700" />
       <Contact />
     </div>
   );
