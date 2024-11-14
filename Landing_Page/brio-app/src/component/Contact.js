@@ -3,10 +3,15 @@ import Logo from "./logo/Logo";
 
 const Contact = () => {
   return (
-    <footer>
-      <div className="flex justify-around items-center gap-4">
-        <Logo />
-        <div className="email flex items-center justify-center gap-4 hover:cursor-pointer">
+    <footer className="bg-red-0 text-red-950 py-8">
+      <div className="flex flex-col md:flex-row justify-between items-center gap-4 px-4 md:px-8 lg:px-16">
+        {/*  Logo Component  */}
+        <div className="mb-4 md:mb-0">
+          <Logo />
+        </div>
+
+        {/*  Email Section */}
+        <div className="email flex items-center justify-center gap-4 hover:cursor-pointer mb-4 md:mb-0">
           <div>
             <svg
               width="48"
@@ -24,11 +29,11 @@ const Contact = () => {
               />
             </svg>
           </div>
-          <div>
-            <p className="">jayaramakrishnan888@gmail.com</p>
-          </div>
+          <p>jayaramakrishnan888@gmail.com</p>
         </div>
-        <div className="flex items-center justify-center gap-4 hover:cursor-pointer">
+
+        {/*  Social Media or Additional Links Section  */}
+        <div className="flex items-center justify-center gap-4 hover:cursor-pointer mb-4 md:mb-0">
           <svg
             width="48"
             height="48"
@@ -44,8 +49,10 @@ const Contact = () => {
               stroke-linejoin="round"
             />
           </svg>
-          <p className="">@Jayaramakrishnan</p>
+          <p>@Jayaramakrishnan</p>
         </div>
+
+        {/*  Contact Number Section  */}
         <div className="flex items-center justify-center gap-4 hover:cursor-pointer">
           <svg
             width="48"
@@ -62,10 +69,10 @@ const Contact = () => {
               stroke-linejoin="round"
             />
           </svg>
-          <p className="">+91 90920 98088</p>
+          <p>+91 90920 98088</p>
         </div>
       </div>
-      <div className="text-center">© 2024 Copyright:BRio</div>
+      <div className="text-center mt-4">© 2024 Copyright: BRio</div>
     </footer>
   );
 };
