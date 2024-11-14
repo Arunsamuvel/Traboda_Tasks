@@ -24,12 +24,12 @@ const About = () => {
               <p class="leading-relaxed text-base">
                 Auto insurance can protect you in the event of an accident. In
                 all 50 states, excluding New Hampshire, drivers are required to
-                have minimum amounts of liability insurance coverage.
+                have 
               </p>
             </div>
           </div>
           <div class="xl:w-1/3 md:w-1/2 p-4">
-            <div class="border border-gray-200 p-6 rounded-lg">
+            <div class="border border-red-950 p-6 rounded-lg">
               <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4"></div>
               <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
                 Life Insurance Coverage
@@ -41,7 +41,7 @@ const About = () => {
             </div>
           </div>
           <div class="xl:w-1/3 md:w-1/2 p-4">
-            <div class="border border-gray-200 p-6 rounded-lg">
+            <div class="border border-red-950 p-6 rounded-lg">
               <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4"></div>
               <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
                 Homeowner's Insurance
@@ -53,39 +53,36 @@ const About = () => {
             </div>
           </div>
           <div class="xl:w-1/3 md:w-1/2 p-4">
-            <div class="border border-gray-200 p-6 rounded-lg">
+            <div class="border border-red-950 p-6 rounded-lg">
               <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4"></div>
               <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
                 LIC SIIP Plan
               </h2>
               <p class="leading-relaxed text-base">
                 If the life assured dies before the risk commences, the
-                beneficiary of the LIC policy will receive an amount equal to
-                the unit fund value.
+                beneficiary of the LIC policy will receive 
               </p>
             </div>
           </div>
           <div class="xl:w-1/3 md:w-1/2 p-4">
-            <div class="border border-gray-200 p-6 rounded-lg">
+            <div class="border border-red-950 p-6 rounded-lg">
               <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4"></div>
               <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
-                Bunker
+              In-house Claims
               </h2>
               <p class="leading-relaxed text-base">
-                Fingerstache flexitarian street art 8-bit waist co, subway tile
-                poke farm.
+              Hassle-free claim settlement with less turn around time.
               </p>
             </div>
           </div>
           <div class="xl:w-1/3 md:w-1/2 p-4">
-            <div class="border border-gray-200 p-6 rounded-lg">
+            <div class="border border-red-950 p-6 rounded-lg">
               <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4"></div>
               <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
-                Ramona Falls
+              24X7 Support
               </h2>
               <p class="leading-relaxed text-base">
-                Fingerstache flexitarian street art 8-bit waist co, subway tile
-                poke farm.
+              Call us at 1800 425 2255 / 1800 102 4477 to clear your queries.
               </p>
             </div>
           </div>
