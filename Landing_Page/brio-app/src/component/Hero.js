@@ -20,8 +20,23 @@ const Hero = () => {
               that exceed insurance coverage.
             </p>
             <div class="flex justify-center">
-              <button class="ml-4 inline-flex text-white bg-red-600 border-0 py-2 px-6 focus:outline-none hover:bg-red-950 rounded text-lg">
+              <button class="ml-4 inline-flex text-white bg-red-600 border-0 py-2 px-6 focus:outline-none hover:bg-red-950 rounded text-lg gap-2">
                 Know more
+                <svg
+                  width="42"
+                  height="35"
+                  viewBox="0 0 42 35"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8.75 17.5H33.25M33.25 17.5L21 7.29169M33.25 17.5L21 27.7084"
+                    stroke="white"
+                    stroke-width="4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
               </button>
             </div>
           </div>
