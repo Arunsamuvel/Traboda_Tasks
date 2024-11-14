@@ -6,25 +6,29 @@ const Contact = () => {
     <footer>
       <div className="flex justify-around items-center gap-4">
         <Logo />
-        <div className="email">
-          <svg
-            width="48"
-            height="48"
-            viewBox="0 0 48 48"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M44 12.0029C44 9.80293 42.2 8.00293 40 8.00293H8C5.8 8.00293 4 9.80293 4 12.0029M44 12.0029V36.0029C44 38.2029 42.2 40.0029 40 40.0029H8C5.8 40.0029 4 38.2029 4 36.0029V12.0029M44 12.0029L24 26.0029L4 12.0029"
-              stroke="#1E1E1E"
-              stroke-width="4"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </svg>
-          <p className="">jayaramakrishnan888@gmail.com</p>
+        <div className="email flex items-center justify-center gap-4 hover:cursor-pointer">
+          <div>
+            <svg
+              width="48"
+              height="48"
+              viewBox="0 0 48 48"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M44 12.0029C44 9.80293 42.2 8.00293 40 8.00293H8C5.8 8.00293 4 9.80293 4 12.0029M44 12.0029V36.0029C44 38.2029 42.2 40.0029 40 40.0029H8C5.8 40.0029 4 38.2029 4 36.0029V12.0029M44 12.0029L24 26.0029L4 12.0029"
+                stroke="#1E1E1E"
+                stroke-width="4"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div>
+            <p className="">jayaramakrishnan888@gmail.com</p>
+          </div>
         </div>
-        <div className="">
+        <div className="flex items-center justify-center gap-4 hover:cursor-pointer">
           <svg
             width="48"
             height="48"
@@ -42,7 +46,7 @@ const Contact = () => {
           </svg>
           <p className="">@Jayaramakrishnan</p>
         </div>
-        <div className="">
+        <div className="flex items-center justify-center gap-4 hover:cursor-pointer">
           <svg
             width="48"
             height="48"
