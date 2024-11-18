@@ -1,11 +1,10 @@
 import React from "react";
+import Logo from "./component/Logo/Logo";
 
 const App = () => {
   return (
-    <div>
-      <h1 className="text-red-600 text-4xl font-medium font-[newsreader]">
-        BRio{" "}
-      </h1>
+    <div className="font-[poppins] bg-gradient-to-t from-[#77CDFF] to-[#FFFFFF] h-screen  w-screen">
+      <Logo />
     </div>
   );
 };
